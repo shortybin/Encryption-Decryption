@@ -26,6 +26,8 @@
         </activity>
         <activity android:name=".AESActivity">
         </activity>
+        <activity android:name=".SRAActivity">
+        </activity>
     </application>
 
 </manifest>
