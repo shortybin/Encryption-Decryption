@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".DESActivity">
         </activity>
+        <activity android:name=".AESActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -7,41 +7,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.example.shrotbin.encryption_decryption.MainActivity">
+    tools:context="com.example.shrotbin.encryption_decryption.Base64Activity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="base64"
-        android:id="@+id/base64"
+        android:text="Encryption"
+        android:id="@+id/encryption"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="md5"
-        android:id="@+id/md5"
+        android:text="decryption"
+        android:id="@+id/decryption"
         />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SHA"
-        android:id="@+id/sha"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DES"
-        android:id="@+id/des"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AES"
-        android:id="@+id/aes"
+        android:id="@+id/content"
         />
 
 </LinearLayout>

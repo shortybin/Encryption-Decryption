@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button mBase64,mMD5,mSHA,mDES;
+    private Button mBase64,mMD5,mSHA,mDES,mAES;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,DESActivity.class));
+            }
+        });
+
+        mAES= (Button) findViewById(R.id.aes);
+        mAES.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,AESActivity.class));
             }
         });
 
